@@ -9,7 +9,7 @@ nav {
   gap: 1ch;
   justify-content: space-between;
   background-color: black;
-  color: cornflowerblue;
+  color: lightblue;
 }
 
 .links {
@@ -18,8 +18,8 @@ nav {
 .logo {
   font-size: 20px;
 }
-.active{
-    color: aliceblue;
+.active {
+  color: aliceblue;
 }
 
 main {
@@ -52,7 +52,7 @@ img {
 
 @media (width <= 600px) {
   body {
-    background-color: rgb(8, 95, 177);
+    background-color: lightblue;
     margin: 0%;
     width: 100%;
     height: 100vh;
@@ -77,6 +77,10 @@ img {
     gap: 10ch;
     justify-content: space-evenly;
     background-color: black;
-    color: cornflowerblue;
+    color: lightblue;
   }
+}
+
+#input {
+  justify-self: center;
 }
